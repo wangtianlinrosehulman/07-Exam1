@@ -205,7 +205,7 @@ def problem1a(a, b, threshold):
     #     1-argument version of the RANGE statement to solve this problem.
     # -------------------------------------------------------------------------
     sum = 0
-    for k in range(a, b+1):
+    for k in range(a, b + 1):
         if product_of_digits(k) < threshold:
             sum = sum + k
     return sum
@@ -279,10 +279,11 @@ def problem1b(r):
     #          See the IMPORTANT NOTE just before the DEF above.
     # -------------------------------------------------------------------------
     sum = 0
-    for k in range (r, r ** 2):
+    for k in range(r, r ** 2):
         if product_of_digits(k) <= r:
             sum = sum + k
     return sum
+
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

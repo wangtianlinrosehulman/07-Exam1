@@ -8,6 +8,7 @@ Authors: David Mutchler, Dave Fisher, Matt Boutell, Amanda Stouder,
 import rosegraphics as rg
 import math
 
+
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_problem3()
@@ -52,6 +53,7 @@ def run_test_problem3():
 
     window.render()  # In case students forget to do so.
     window.close_on_mouse_click()
+
 
 ###############################################################################
 #
